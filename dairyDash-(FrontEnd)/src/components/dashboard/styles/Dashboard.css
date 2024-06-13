@@ -1,0 +1,18 @@
+.dashboard {
+    display: flex;
+  }
+  
+  .sidebar-container {
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+  
+  .sidebar-container.open {
+    transform: translateX(0);
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  

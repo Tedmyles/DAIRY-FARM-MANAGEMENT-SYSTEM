@@ -1,0 +1,86 @@
+.milk-production-form-popup {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(109, 234, 92, 0.1);
+  z-index: 1000;
+  border-style: solid;
+  border-color: greenyellow;
+  border-width: 1px;
+  border-radius: 50px;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(65, 128, 231);
+}
+
+.date-input {
+  margin-left: auto;
+}
+
+.milk-production-form {
+  margin-top: 20px;
+}
+
+.milk-production-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.milk-production-table th,
+.milk-production-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.milk-production-table th {
+  border-color: greenyellow;
+  background-color: #adf481bb;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-submit-btn{
+  background-color: rgb(73, 234, 52);
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+
+}
+.form-cancel-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.form-cancel-btn {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+.date-input {
+  color: rgb(44, 74, 224);
+}
+
+.tr,td {
+  color: rgb(45, 91, 227);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.tableHeaders {
+  color: rgb(34, 108, 21);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

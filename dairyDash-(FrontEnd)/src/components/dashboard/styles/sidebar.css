@@ -1,0 +1,36 @@
+/* src/styles/sidebar.css */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 256px; /* Adjust the width as needed */
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text */
+    padding: 20px; /* Add padding for better readability */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .sidebar a:hover {
+    background-color: #555; /* Darken background on hover */
+  }
+  
+  .active-link {
+    background-color: #ccc; /* Gray background for active link */
+    color: #333; /* Dark text for active link */
+  }
+  

@@ -1,0 +1,44 @@
+/* styles/healthRecordScreen.css */
+
+/* Icon buttons container */
+.icon-buttons {
+  display: flex;
+  gap: 50px; /* Adjust the gap value as needed for desired spacing */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+
+/* Individual icon button */
+.icon-button {
+  position: relative;
+}
+
+.icon-button:hover {
+  transform: scale(1.1);
+}
+
+/* Tooltip text */
+.tooltip {
+  visibility: hidden;
+  width: max-content;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip visibility on hover */
+.icon-button:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}

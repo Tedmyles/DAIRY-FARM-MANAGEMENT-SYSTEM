@@ -1,0 +1,17 @@
+.max-w-xs {
+    border-radius: 5px;
+    border-style: solid;
+    width: 250px;
+    
+}
+.w-full {
+    border-style: solid;
+} 
+
+
+ .imgDiv:hover {
+   
+    transform: scale(1.1);
+ }
+
+ 

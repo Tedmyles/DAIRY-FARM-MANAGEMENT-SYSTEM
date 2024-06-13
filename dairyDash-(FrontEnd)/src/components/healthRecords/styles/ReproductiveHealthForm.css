@@ -1,0 +1,78 @@
+/* ReproductiveHealthForm.css */
+.form-container {
+    max-height: 400px; /* Define a max height */
+    overflow-y: auto; /* Add vertical scroll when content exceeds max height */
+    padding: 20px;
+    background-color: #f0fff0; /* Light green background */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-container input[type="text"]:focus,
+  .form-container input[type="date"]:focus {
+    outline: none;
+    border-color: #5cb85c; /* Green border on focus */
+  }
+  
+  .form-container input[type="text"]:hover,
+  .form-container input[type="date"]:hover {
+    border-color: #5cb85c; /* Green border on hover */
+  }
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .form-container textarea:focus {
+    outline: none;
+    border-color: #5cb85c; /* Green border on focus */
+  }
+  
+  .form-container button[type="submit"]
+   {
+    background-color: #5cb85c; /* Green submit and cancel buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .form-container button[type="submit"]:hover
+   {
+    background-color: #4cae4c; /* Darker green on hover */
+  }
+  
+  .form-container button[type="button"] {
+    background-color: red;
+  }
+
+  .form-container button[type="button"] a:hover {
+    background-color: red;
+  }
+
+ 
